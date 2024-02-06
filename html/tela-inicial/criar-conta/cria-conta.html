@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto Agro</title>
+    <link rel="stylesheet" href="../../../style/tela-inicial/criar-conta.css">
+    <link rel="shortcut icon" href="../../../img/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <a class="ir-para-o-home" href="../../home/home.php">VOLTAR PARA O HOME</a>
+    <section class="area-de-login">
+        <div class="login" style="height: 500px !important;">
+            
+              <h1 class="img">Cadastro</h1>
+            
+        <form action="../../config/trataCadastro.php" method="POST">
+            <p>Nome:</p>
+        <input type="text" name="nome" placeholder="Nome e sobrenome" style="font-size: 20px;" required>
+        <p>Endereço de email:</p>
+        <input type="text" name="email" placeholder="Numero de celular endereço de email" style="font-size: 20px;" required>
+        <p>Senha:</p>
+        <input type="password" name="senha" placeholder="Pelo menos 6 caracter" style="font-size: 20px;"required>
+        
+        
+        <div style="display: flex; align-items: center;">
+            <input type="checkbox"  style="width: 20px; height: 20px;" required>
+            <p style="color: white; ">Eu li e aceito os </p>
+            <a style="margin-left: 5px; font-size: 15px;" width="100%" href="termos.html" target="_blank">Termos de Serviço/Política de Privacidade</a>
+        </div>
+        <input type="submit" value="Continuar" style="padding-right: 30px;">
+        </form>
+ <br>
+            <p>Ja tem uma conta? <a href="../login/login.php">Fazer login</a></p>
+        
+        </div>
+    </section>
+</body>
+</html> 

@@ -1,0 +1,71 @@
+body{
+    background-image: url(../../img/img-editar.jpeg);
+    background-size: cover !important;
+    font-family: 'Italiana', sans-serif;
+}
+.box-editar{
+  transform: translate(0px, 12%);
+    background-color: white;
+    width: 80%;
+margin-left: 7.5%;
+    padding: 30px;
+    height: 720px;
+    border-radius: 25px;
+}
+.btn-btn-danger{
+    background-color: red;
+    padding: 5px 11px 5px 11px;
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+
+    }
+.form-control{
+     font-size: 24pt;
+     border: none !important;
+     border-bottom: 1px solid black !important;
+     text-align: center !important;
+     font-family: 'Italiana', sans-serif;
+     font-weight: bold !important;
+     width: 70% !important;
+     justify-content: center !important;
+     margin-left: 15% !important;
+     margin-top: 40px !important;
+     outline: none;
+     transform: translate(0px, -130px);
+ }
+ .cadastrar{
+    width: 22% !important;
+    border: none !important;
+    color: white !important;
+    background-color: rgb(222, 200, 168) !important;
+    border-radius: 10.2px !important;
+ font-size: 24px;
+  padding: 10px;
+  transform: translate(600px, -130px);
+}
+h1{
+font-size: 64pt;
+color: rgb(109, 53, 1);
+text-align: center;
+transform:translate(0px, -60px);
+}
+.sub{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    width: 150px;
+   transform: translate(790px, -130px);
+}
+.destaque{
+    transform: translate(731px, -140px);
+    width: 90px;
+}
+
+#categoria{
+    padding-left: 11%;
+    text-align: center;
+    width: 900px !important;
+}

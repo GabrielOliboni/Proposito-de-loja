@@ -1,0 +1,237 @@
+
+body{
+  
+    background-color: black;
+}
+
+header{
+    background-color: #fff8f8;
+  justify-content: center;
+
+}
+nav a{
+    color: black !important; 
+    text-decoration: none !important;
+    margin-left: 40px !important;
+    margin-right: 40px !important;
+    font-size: 20px !important;
+    text-align: center !important;
+}
+.nav-link{
+    width: 100% !important;
+    transform: translate(-20px, 0px) !important;
+    font-size: 17px !important;
+}
+nav a:hover{
+    color: rgb(237, 215, 197) !important;
+    
+}
+
+.entrar_no_login{
+    background-color: rgb(255, 229, 203);
+    color: black;
+    font-size: 15x;
+    cursor: pointer;
+padding-left: 7px;
+padding-right: 7px;
+    border-radius: 10px;
+
+}
+.sair{
+    background-color: rgb(225, 225, 225) !important;
+    color: black;
+    font-size: 15px;
+    cursor: pointer;
+padding-left: 7px;
+padding-right: 7px;
+border-top-right-radius: 10px ;
+border-bottom-right-radius: 10px ;
+}
+.email{
+    background-color: rgb(225, 225, 225) !important;
+    color: black;
+    font-size: 19px;
+ 
+padding-left: 7px;
+padding-right: 7px;
+border-top-left-radius: 10px ;
+border-bottom-left-radius: 10px ;
+}
+.sair:hover{
+    background-color: rgb(194, 200, 205) !important;
+}
+.adm{
+    background-color: rgb(207, 255, 207) !important;
+    color: black;
+    font-size: 15x;
+    cursor: pointer;
+padding-left: 7px;
+padding-right: 7px;
+    border-radius: 10px;
+}
+.adm:hover{
+    background-color: #acdfbf  !important;
+}
+.entrar_no_login:hover{
+    background-color: rgba(255, 227, 196, 0.848);
+    color: black;
+}
+.linha_vermelha{
+    background-color: rgb(138, 92, 24);
+    height: 3px;
+}
+
+.carosel{
+    background-image: url(../../img/carosel-2.png);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+}
+nav a:hover{
+    color: rgb(134, 89, 51);
+}
+.main{
+    margin-top: 100px;
+    width: 50%;
+    text-align: center;
+   margin-left: 25%;
+   margin-bottom: 100px;
+   font-size: 20px;
+}
+#footer_content {
+    background-color: var(--color-neutral-10);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 3rem 3.0rem;
+    background-color: rgb(1, 0, 14);
+    color: white;
+}
+.card-group{
+    background-color:#f1f1f1;
+}
+
+#footer_social_media {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1.5rem;
+    margin-left: 80px;
+}
+
+#footer_social_media .footer-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    color: var(--color-neutral-40);
+    border-radius: 50%;
+    transition: all 0.4s;
+    margin-right: 2px;
+}
+
+#footer_social_media .footer-link i {
+    font-size: 1.25rem;
+}
+
+#footer_social_media .footer-link:hover {
+    opacity: 0.8;
+}
+
+#instagram {
+    background: linear-gradient(#7f37c9, #ff2992, #ff9807);
+}
+
+#facebook {
+    background-color: #4267b3;
+}
+
+#whatsapp {
+    background-color: #25d366;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    list-style: none;
+    text-align: left;
+}
+
+.footer-list .footer-link {
+    color: var(--color-neutral-30);
+    transition: all 0.4s;
+   
+}
+.footer-list .footer-link:hover {
+    color: #7f37c9;
+}
+
+.loc{
+    justify-content:right;
+}
+footer a {
+    text-decoration: none;
+}
+
+#footer_copyright {
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-neutral-0);
+    font-size: 0.9rem;
+    padding: 1.5rem;
+    font-weight: 100;
+}
+
+@media screen and (max-width: 768px) {
+    #footer_content {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    #footer_content {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 3rem 2rem;
+    }
+}
+p{
+    text-align: center;
+    padding-top: 10px;
+}
+.porque-compra{
+  border: 0.5px solid rgba(0, 0, 0, 0.166);
+  border-radius: 10px;
+  margin: 20px;
+}
+
+img{
+    border-radius: 20px;
+}
+.porque-compra a{
+text-decoration: none;
+color: black;
+font-size: 20px;
+}
+.imagem{
+width: 400px; 
+height: 300px; 
+background-image: url(../../img/porque-compra.jpg);
+background-size: cover;
+border-radius: 10px;
+}   
+ .imagem-3{
+        width: 400px; 
+        height: 300px; 
+        background-image: url(../../img/vale-apena.jpeg);
+        background-size: cover;
+        border-radius: 10px;
+        }
+
+.imagem-2{
+    width: 400px; 
+    height: 300px; 
+    background-image: url(../../img/pib-aumentado.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    }

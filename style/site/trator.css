@@ -1,0 +1,84 @@
+body{
+  
+    background-color: black;
+}
+
+header{
+    background-color: #fff8f8;
+  justify-content: center;
+
+}
+nav a{
+    color: black !important; 
+    text-decoration: none !important;
+    margin-left: 40px !important;
+    margin-right: 40px !important;
+    font-size: 20px !important;
+    text-align: center !important;
+}
+nav a:hover{
+    color: rgb(237, 215, 197) !important;
+    
+}
+
+.entrar_no_login{
+    background-color: rgb(255, 229, 203);
+    color: black;
+    font-size: 15x;
+    cursor: pointer;
+padding-left: 7px;
+padding-right: 7px;
+    border-radius: 10px;
+
+}
+.sair{
+    background-color: rgb(225, 225, 225) !important;
+    color: black;
+    font-size: 15px;
+    cursor: pointer;
+padding-left: 7px;
+padding-right: 7px;
+border-top-right-radius: 10px ;
+border-bottom-right-radius: 10px ;
+}
+.email{
+    background-color: rgb(225, 225, 225) !important;
+    color: black;
+    font-size: 19px;
+ 
+padding-left: 7px;
+padding-right: 7px;
+border-top-left-radius: 10px ;
+border-bottom-left-radius: 10px ;
+}
+.sair:hover{
+    background-color: rgb(194, 200, 205) !important;
+}
+.adm{
+    background-color: rgb(207, 255, 207) !important;
+    color: black;
+    font-size: 15x;
+    cursor: pointer;
+padding-left: 7px;
+padding-right: 7px;
+    border-radius: 10px;
+}
+.adm:hover{
+    background-color: #acdfbf  !important;
+}
+.entrar_no_login:hover{
+    background-color: rgba(255, 227, 196, 0.848);
+    color: black;
+}
+.linha_vermelha{
+    background-color: rgb(138, 92, 24);
+    height: 3px;
+}
+.linha-gray{
+    background-color: rgb(242, 242, 242);
+    height: 600px;
+    width: 100%;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    box-shadow: 4px 4px 9px rgba(189, 189, 189, 0.689);
+}

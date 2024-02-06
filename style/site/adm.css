@@ -1,0 +1,98 @@
+.btn-btn-danger{
+background-color: red;
+padding: 5px 11px 5px 11px;
+margin: 10px;
+text-decoration: none;
+color: white;
+border-radius: 10px;
+font-size: 20px;
+transform: translate(0px, -10px)
+}
+.img{
+    background-image: url(../../img/adm.png);
+    background-size: cover;
+    height: 900px !important;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.356);
+}
+.box-branco{
+    background-color: rgb(255, 255, 255);
+    width: 1350px;
+    transform: translate(-200px, -10px);
+  padding: 50px;
+border-top-right-radius: 10px !important;
+border-top-left-radius: 60px !important;
+border-bottom-left-radius: 10px !important;
+border-bottom-right-radius: 60px !important;
+text-align: center;
+font-family: 'Italiana', sans-serif;
+box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.13)
+
+
+}
+.form-control{
+   border: none !important;
+   border-radius: 0px !important;
+    border-bottom: 1px solid black !important;
+    text-align: center !important;
+    font-size: 30px !important;
+font-weight: bold !important;
+    width: 70% !important;
+    justify-content: center !important;
+    margin-left: 15% !important;
+    margin-top: 20px !important;
+    outline: none;
+}
+.cadastrar{
+    width: 22% !important;
+    border: none !important;
+    color: white !important;
+    background-color: rgb(222, 200, 168) !important;
+    border-radius: 10.2px !important;
+ font-size: 24px;
+  padding: 10px;
+  transform: translate(-3%, 0px);
+
+}
+.nenhum-ptoduto-cadastrado{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 7px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 50px;
+}
+body{
+    background-image: url(../../img/laranjaa.png);
+    
+}
+
+.cadastro{
+padding: 7px;
+background-color: green;
+color: white;
+width: 20%;
+margin-left: 39% !important;
+border-radius: 10px;
+text-align: center;
+margin: 30px;
+}
+.nomes{
+color: rgb(121, 69, 2) !important;
+}
+.produtos{
+    color: rgb(153, 43, 4) !important;
+}
+.box-externa{
+    border-radius: 20px !important;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    margin: 30px;
+}
+
+#categoria{
+    padding-left: 11%;
+    text-align: center;
+}
